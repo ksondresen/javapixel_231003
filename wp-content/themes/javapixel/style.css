@@ -1,0 +1,100 @@
+/*
+Theme Name: Javapixel 2023
+Text Domain: Javapixel
+Version: 1.0
+Description: Minimalistic
+Tags: minimalistic, responsive
+Author: Kjartan Sondresen
+Author URI: https://javapixel.no
+*/
+
+body {
+  font-family: roboto; 
+  margin:0px;
+  padding-right:-12px; /* Is set to -12px to adjust for the scrollbar than is recompensated in the .modal-open properties */
+}
+
+/* Show scrollbar on hover for Chrome, Safari, Opera */
+body::-webkit-scrollbar {
+    width: 12px;    
+}
+
+
+/* Style the scrollbar when it appears */
+::-webkit-scrollbar-thumb {
+    background: #e4e4e4;
+    border-radius: 5px;    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1;
+}
+
+
+p {    
+    margin: unset;
+}
+
+.container-green-ch-and-txt {    
+    display:flex;
+    flex-direction:row; 
+    justify-content:left; 
+    align-items: center; 
+    gap:10px;
+    padding-left: 15px;            
+}
+
+.green-checkmark-230921 {
+    width:17px;aspect-ratio:1/1;
+    margin-top:2px"
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */    
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgb(0 0 0 / 13%); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 90px auto 100px auto; /* Location of the box */
+    padding: 0px;    
+    border-radius: 7px;
+    width: 80%;
+    overflow: hidden;    
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+  }
+  
+  /* Modal The Close Button */
+  .close {  
+    color: rgb(33, 33, 33);
+    position: absolute; 
+    top: 10px; 
+    right: 25px;     
+    font-family:'Times New Roman', Times, serif; /*This is the setting that ensures that the X is thin and nice, and not fat*/
+    font-size: 40px;
+    font-weight: 400;    
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;    
+  }
+
+  .modal-open {
+    overflow: hidden;    
+    padding-right: 12px; /*This setting correts for content that gets moved to the right when scrollbar is hidden in background - when modal opens */
+  }
+  
