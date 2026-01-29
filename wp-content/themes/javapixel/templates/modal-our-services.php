@@ -10,21 +10,28 @@
         all: unset; 
         display: block;
         margin:0;
-        width: 150px;
+        width: 160px;
         background-color: #f3f3f3ff;        
         padding: 10px;
         color: #a7a7a7; 
         border-radius: 5px;       
+        font-size: 14px;
+        text-align: center;
     }
 
     .tab-link:hover {        
         background-color: #baf0ff;                
         color: #060d41;
+        background-color: #f57c3f;
+        color: white;
     }
 
     .tab-link.active {        
         background-color: #cdf4ffff;                
         color: #060d41;
+        background-color: #ff5c47ff;
+        color: white;    
+        font-weight: 400;
     }
 
     .tab-content {
@@ -42,9 +49,9 @@
     <div class="modal-container" style="margin-top: 45px; display: flex; align-items: top; min-height: 400px" >
         <nav class="nav-wp-posts-our-services" style="height: 100%; background-color: white">
             <ul style="unset:all; list-style-type: none; padding-left: 30px; display:flex; flex-direction: column; align-items: start; gap: 10px 0">                
-                <li><a href="#" class="tab-link" data-tab="tab1" data-permalink="?p=6">Videostreaming og podcast produksjon</a></li>
-                <li><a href="#" class="tab-link" data-tab="tab2" data-permalink="?p=7">Web-design</a></li>
-                <li><a href="#" class="tab-link" data-tab="tab3" data-permalink="?p=8">Web-analyse</a></li>
+                <li><a href="#" class="tab-link" data-tab="tab1" data-permalink="?p=6">Videostreaming og <br>podcast produksjon</a></li>
+                <li><a href="#" class="tab-link" data-tab="tab2" data-permalink="?p=7">Nettside og <br>applikasjon utvikling</a></li>
+                <li><a href="#" class="tab-link" data-tab="tab3" data-permalink="?p=8">Analyse og brukeradferd <br>- digital måloppnåelse</a></li>
             </ul>
         </nav>
             
