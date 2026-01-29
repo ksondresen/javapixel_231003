@@ -3,11 +3,33 @@
       <!-- <p>Lei av kortsiktige it-tjenester <span style="font-weight:bold">basert på profittjakt?</span></p>-->
     </section>
 
-    <section class="section-grey-container" style="height: 300px;background-color:#fffaf5ff; display: flex; justify-content:center; align-items:center; gap: 30px">
-      <div class="circular-image" style="height: 200px; aspect-ratio:1/1; border-radius:50%; box-shadow: 1px 1px 6px 2px #11111152; ">
+    <section class="section-grey-container" style="position: relative; height: 300px;background-color:#fffaf5ff; display: flex; justify-content:center; align-items:center; gap: 30px">
+      <div style="
+          content: '';
+          height: 100%;
+          background: linear-gradient(180deg, #fff7ef 0% 0%, #0000 35%);
+          position: absolute;
+          width: 100%;
+          top: 0;
+          left: 0;
+          z-index: 0;      
+      ">
+      </div>
+      <div style="
+          content: '';
+          height: 100%;
+          background: linear-gradient(0deg, #fff7ef 0% 0%, #0000 35%);
+          position: absolute;
+          width: 100%;
+          top: 0;
+          left: 0;
+          z-index: 0;      
+      ">
+      </div>
+      <div class="circular-image" style="z-index: 1;height: 200px; aspect-ratio:1/1; border-radius:50%; box-shadow: 1px 1px 14px 2px #11111117 ">
         <img src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_portrait_photo.png" style="width:100%">
       </div>
-      <div class="container-marketing-text-and-button" style="display:flex; flex-direction: column;gap:10px; width: 320px">
+      <div class="container-marketing-text-and-button" style="z-index: 1;display:flex; flex-direction: column;gap:10px; width: 320px">
         <p>Javapixel er et lokalt IT-byrå som leverer <span style="font-weight:bold; line-height: 1.3em">moderne tjenester tilpasset deg</span>.</p>        
         <!--<p>Javapixel er et lokalt it-byrå som utvikler nettsider <span style="font-weight:bold">basert på hva som er best for deg</span>.</p>-->
         <div class="container-green-ch-and-txt"  >
