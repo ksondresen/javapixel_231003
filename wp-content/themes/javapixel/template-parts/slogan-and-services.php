@@ -42,12 +42,11 @@
           src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_portrait_photo.png" 
           style="
             width:100%;
-            filter: brightness(1.0) contrast(1.0) opacity(0.8) "
-            "
+            filter: brightness(1.0) contrast(1.0) opacity(0.8) "           
           >
       </div>
       <div class="container-marketing-text-and-button" style="z-index: 1;display:flex; flex-direction: column;gap:10px; width: 320px">
-        <p>Javapixel er et lokalt IT-byrå som leverer <span style="font-weight:bold; line-height: 1.3em">moderne tjenester tilpasset deg</span>.</p>        
+        <p>Javapixel er et lokalt IT-byrå som leverer <span style="font-weight:bold; line-height: 1.4em">moderne tjenester tilpasset deg</span>.</p>        
         <!--<p>Javapixel er et lokalt it-byrå som utvikler nettsider <span style="font-weight:bold">basert på hva som er best for deg</span>.</p>-->
         <div class="container-green-ch-and-txt"  >
             <img class="green-checkmark-230921" src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_green_check.png"></img>
@@ -61,7 +60,18 @@
             <img class="green-checkmark-230921" src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_green_check.png"></img>
             <p>Fornuftig timepris - høy kvalitet</p>  
         </div>
-        <button id="myBtn"><p>Se tjenestene vi tilbyr</p></button>        
+        <!--<button id="myBtn"><p>Se tjenestene vi tilbyr</p></button>        -->
       </div>
 </p>
     </section>
+
+    <div style="
+      display: flex;
+      aling-items: center;
+      justify-content: center;
+      width: 100%;
+      margin: 150px 0
+      "
+    >
+      <button id="myBtn"><p>Se tjenestene vi tilbyr</p></button>
+    </div>

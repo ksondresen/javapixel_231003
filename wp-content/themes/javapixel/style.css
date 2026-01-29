@@ -100,17 +100,18 @@ p {
   }
   
   #myBtn {
-    all: unset; 
+    all: unset;
     align-self: flex-start;
     margin-top: 10px;
-    background-color: #6f9bfb; 
-    background-color: #cdf4ffff;     
-    color:white; 
-    color:#152f08;     
-    border-radius: 5px; 
-    padding: 10px 20px; 
-    text-align: center; 
+    background-color: #6f9bfb;
+    background-color: #cdf4ff;
+    color: white;
+    color: #152f08;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
     cursor: pointer;
+    font-size: 17px;
   }
 
    #myBtn:hover {
