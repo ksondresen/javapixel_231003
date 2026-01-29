@@ -72,11 +72,11 @@
                 <h3>Skal du arrangere et event - og ønsker robust videostreaming som alltid fungerer?</h3>
                 <p>
                     Med over 15 års erfaring fra live videostreaming har vi svært god kunnskap 
-                    om hvordan vi kan sørge for at ditt arrangement strømmes ut til alle kanalene du måtte ønske på en profesjoll måte. Vårt oppsett fasiliterer                
+                    om hvordan vi kan sørge for at ditt arrangement strømmes ut til alle kanalene du måtte ønske på en profesjonell måte. 
                 </p>
                 </br>                
                 <p>
-                    Vårt oppsett fasiliterer                
+                    Vårt oppsett fasiliterer:                
                 </p>
                     <ul>
                         <li>Fler kamera med profesjonellt lyd oppsett.</li>
@@ -84,6 +84,9 @@
                         <li>Strømming til flere plattformer samtidig (Youtube, Fb, etc)</li>
                         <li>Integrasjon av PP og andre mediefiler</li>
                     </ul>
+                </p>
+                <p>
+                    Med høy teknisk kompetanse er du sikret en trygg løsning.
                 </p>
             </div>
             
