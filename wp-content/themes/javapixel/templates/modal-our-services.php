@@ -17,12 +17,13 @@
         border-radius: 5px;       
         font-size: 14px;
         text-align: center;
+        cursor: pointer;
     }
 
     .tab-link:hover {        
         background-color: #baf0ff;                
         color: #060d41;
-        background-color: #f57c3f;
+        background-color: #ea3a23;
         color: white;
     }
 
@@ -35,7 +36,7 @@
     }
 
     .tab-content {
-        padding: 10px 30px 30px 20px;
+        
     }
     
 </style>
@@ -46,9 +47,9 @@
     <!-- Modal content -->
     <div id="myModalContent" class="modal-content">
     <span class="close" id="close-modal-button">&times;</span>
-    <div class="modal-container" style="margin-top: 45px; display: flex; align-items: top; min-height: 400px" >
+    <div class="modal-container" style="margin-top: 45px; display: flex; gap: 30px; align-items: top; min-height: 400px" >
         <nav class="nav-wp-posts-our-services" style="height: 100%; background-color: white">
-            <ul style="unset:all; list-style-type: none; padding-left: 30px; display:flex; flex-direction: column; align-items: start; gap: 10px 0">                
+            <ul style="unset:all; list-style-type: none; display:flex; flex-direction: column; align-items: start; gap: 10px 0; margin: unset; padding: unset;">                
                 <li><a href="#" class="tab-link" data-tab="tab1" data-permalink="?p=6">Videostreaming og <br>podcast produksjon</a></li>
                 <li><a href="#" class="tab-link" data-tab="tab2" data-permalink="?p=7">Nettside og <br>applikasjon utvikling</a></li>
                 <li><a href="#" class="tab-link" data-tab="tab3" data-permalink="?p=8">Analyse og brukeradferd <br>- digital måloppnåelse</a></li>
@@ -60,20 +61,28 @@
                 <img 
                     src="wp-content\themes\javapixel\assets\images\260129_video_streaming_og_podcast.png" 
                     style="    
-                        width: 100%;
+                        width: 700px;
                         aspect-ratio: 24 / 9;
                         object-fit: cover;
                         object-position: 50% 27%;
                         border-radius: 6px;
-                        filter: grayscale(0.4) brightness(1.15) opacity(0.8) contrast(1.2);
+                        filter: grayscale(0.2) brightness(1.15) opacity(0.8) contrast(1.2);
                         "
-                >                
-                <div>Videostreaming og podcast produksjon</div>
-                <p>Når du ønsker robust videostreaming som alltid fungerer
+                >                                
+                <h3>Skal du arrangere et event - og ønsker robust videostreaming som alltid fungerer?</h3>
+                <p>
+                    Med over 15 års erfaring fra live videostreaming har vi svært god kunnskap 
+                    om hvordan vi kan sørge for at ditt arrangement strømmes ut til alle kanalene du måtte ønske på en profesjoll måte. Vårt oppsett fasiliterer                
+                </p>
+                </br>                
+                <p>
+                    Vårt oppsett fasiliterer                
+                </p>
                     <ul>
-                        <li>Fler kamera</li>
-                        <li>Zoom integrering</li>
-                        <li>Strøm til flere plattformer</li>
+                        <li>Fler kamera med profesjonellt lyd oppsett.</li>
+                        <li>Om en gjest deltar på Zoom så integrer vi dette sømløst i sendingen</li>
+                        <li>Strømming til flere plattformer samtidig (Youtube, Fb, etc)</li>
+                        <li>Integrasjon av PP og andre mediefiler</li>
                     </ul>
                 </p>
             </div>
@@ -185,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector(".tab-link").classList.add("active");
         document.getElementById("tab1").classList.add("active"); 
         // 4. updates url with wp-post permalink
-        window.history.replaceState({}, '', 'http://localhost/javapixel/?p=6');
+        window.history.replaceState({}, '', '/?p=6');
     });
 
     // When the user clicks on <span> (x), close the modal
