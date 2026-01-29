@@ -86,7 +86,7 @@
                     </ul>
                 </p>
                 <p>
-                    Med høy teknisk kompetanse er du sikret en trygg løsning.
+                    Med javapixel som samarbeidspartner er du sikret en trygg løsning for din videostreaming fra A til Å.
                 </p>
             </div>
             
