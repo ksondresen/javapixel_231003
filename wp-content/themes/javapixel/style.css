@@ -99,3 +99,23 @@ p {
     padding-right: 12px; /*This setting correts for content that gets moved to the right when scrollbar is hidden in background - when modal opens */
   }
   
+  #myBtn {
+    all: unset; 
+    align-self: flex-start;
+    margin-top: 10px;
+    background-color: #6f9bfb; 
+    background-color: #cdf4ffff;     
+    color:white; 
+    color:#152f08;     
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    text-align: center; 
+    cursor: pointer;
+  }
+
+   #myBtn:hover {
+    background-color: #4179f2; 
+    background-color: #a4ebff;     
+    background-color: #cdf4ffff;     
+    outline: solid 2px #5fdcff;
+   }

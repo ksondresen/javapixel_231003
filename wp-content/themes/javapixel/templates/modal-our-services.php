@@ -66,7 +66,7 @@
                         object-fit: cover;
                         object-position: 50% 27%;
                         border-radius: 6px;
-                        filter: grayscale(0.2) brightness(1.15) opacity(0.8) contrast(1.2);
+                        filter: grayscale(0.1) brightness(1.15) opacity(0.85) contrast(1.2);
                         "
                 >                                
                 <h3>Skal du arrangere et event - og ønsker robust videostreaming som alltid fungerer?</h3>
