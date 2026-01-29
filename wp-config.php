@@ -83,7 +83,14 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
+if ( isset($_SERVER['HTTP_HOST']) ) {
+	$host = $_SERVER['HTTP_HOST'];
 
+	if ( $host === 'testsite.javapixel.no' || $host === 'www.testsite.javapixel.no' ) {
+		define( 'WP_HOME', 'https://testsite.javapixel.no' );
+		define( 'WP_SITEURL', 'https://testsite.javapixel.no' );
+	}
+}
 
 /* That's all, stop editing! Happy publishing. */
 

@@ -42,7 +42,7 @@
     <div class="modal-container" style="margin-top: 45px; display: flex; align-items: top; min-height: 400px" >
         <nav class="nav-wp-posts-our-services" style="height: 100%; background-color: white">
             <ul style="unset:all; list-style-type: none; padding-left: 30px; display:flex; flex-direction: column; align-items: start; gap: 10px 0">                
-                <li><a href="#" class="tab-link" data-tab="tab1" data-permalink="?p=6">Programmering</a></li>
+                <li><a href="#" class="tab-link" data-tab="tab1" data-permalink="?p=6">Videostreaming og podcast produksjon</a></li>
                 <li><a href="#" class="tab-link" data-tab="tab2" data-permalink="?p=7">Web-design</a></li>
                 <li><a href="#" class="tab-link" data-tab="tab3" data-permalink="?p=8">Web-analyse</a></li>
             </ul>
@@ -50,11 +50,25 @@
             
             <div class="tab-content" id="tab1">
                 <!-- WordPress Post 1 Content Here -->
-                <?php
-                    $post1 = get_post(6); // Replace with your post ID
-                    echo '<h3 style="line-height: unset; margin: 10px 0">' . apply_filters('the_title', $post1->post_title) . '</h3>';
-                    echo apply_filters('the_content', $post1->post_content);
-                ?>
+                <img 
+                    src="wp-content\themes\javapixel\assets\images\260129_video_streaming_og_podcast.png" 
+                    style="    
+                        width: 100%;
+                        aspect-ratio: 24 / 9;
+                        object-fit: cover;
+                        object-position: 50% 27%;
+                        border-radius: 6px;
+                        filter: grayscale(0.4) brightness(1.15) opacity(0.8) contrast(1.2);
+                        "
+                >                
+                <div>Videostreaming og podcast produksjon</div>
+                <p>Når du ønsker robust videostreaming som alltid fungerer
+                    <ul>
+                        <li>Fler kamera</li>
+                        <li>Zoom integrering</li>
+                        <li>Strøm til flere plattformer</li>
+                    </ul>
+                </p>
             </div>
             
             <div class="tab-content" id="tab2">
