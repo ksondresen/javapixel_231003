@@ -15,7 +15,7 @@
 </head>
 <body>
   <header>
-    <div class="header-bar" style="position:relative; display: flex; flex-direction: horisontal; padding: 30px 30px">        
+    <div class="header-bar" style="position:relative; display: flex; flex-direction: horisontal; padding: 30px 50px">        
         <a href="" style="color:unset;text-decoration:unset"><div class="javapixel-logo-flex-box" style="position:relative;display:flex;flex-direction:horisontal; justify-content:center; align-items: center; gap:3px">
             <div class="javapixel-logo-txt">
               <span class="javapixel_logo_part_1">java</span>

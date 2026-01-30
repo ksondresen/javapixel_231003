@@ -1,5 +1,5 @@
 <section class="section-with-profit-text" style="display:flex;justify-content:center; align-items:center; height: 300px;">
-      <p>Ønsker du en god prosess og gode tekniske løsninger?
+      <p>Ønsker du en god prosess og <span class="span_text_gode_tekniske_losninger">gode tekniske løsninger?</span>
         <!-- <span style="font-weight:bold"> - support, utvikling og alt imellom</span>-->
       </p>      
       <!-- <p>Lei av kortsiktige it-tjenester <span style="font-weight:bold">basert på profittjakt?</span></p>-->

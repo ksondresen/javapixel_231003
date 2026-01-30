@@ -192,22 +192,36 @@ p {
 
    
    .javapixel_logo_part_1, 
-   .javapixel_logo_part_2 {
-    padding-top: 5px;
-    padding-bottom: 5px;
+   .javapixel_logo_part_2 {    
     font-size: 18px;
    }
 
    .javapixel_logo_part_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    aspect-ratio: 1 / 1;
+    background-color: #f2a284;
+    border-radius: 50%;    
     color: black;
     padding-left: 0px;
     padding-right: 5px;
    }
 
    .javapixel_logo_part_2 {
-    background-color: black;
-    color: white;    
-    padding-left: 7px;
-    padding-right: 7px;
+    background-color: #dcf7ff;
+    color: #0a3a3c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 12px;
+    z-index: 1;
+    margin-left: -17px;
+   }
+
+   .span_text_gode_tekniske_losninger {
+    padding: 9px 8px;
+    background-color: #dcf7ff;
     border-radius: 3px;
    }
