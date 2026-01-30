@@ -69,7 +69,7 @@
                         filter: grayscale(0.1) brightness(1.15) opacity(0.85) contrast(1.2);
                         "
                 >                                
-                <h3>Skal du arrangere et event - og ønsker robust videostreaming som alltid fungerer?</h3>
+                <h3>Skal du arrangere et event - og ønsker profesjonell videostreaming som fungerer?</h3>
                 <p>
                     Med over 15 års erfaring fra live videostreaming har vi svært god kunnskap 
                     om hvordan vi kan sørge for at ditt arrangement strømmes ut til alle kanalene du måtte ønske på en profesjonell måte. 
