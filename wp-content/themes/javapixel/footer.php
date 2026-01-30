@@ -2,7 +2,11 @@
 <footer style="margin-top: 400px;display:flex; justify-content: center">    
 
     <div class="footer-bar-container" style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;background-color: #434343ff; color: white; ">
-      <h3 style="margin: 80px auto 80px auto;">Over 15 år med forøyde kunder</h3>
+      <h3 style="    
+        margin: 100px auto 80px auto;
+        font-weight: 500;">
+        Over 15 år med forøyde kunder
+      </h3>
       <div style="width: 1100px; margin: 50px auto; display: flex; gap: 20px;align-items: center; justify-content: center; flex-wrap: wrap;">
           <div class="wrapper_logo_from_customer">
             <img 
