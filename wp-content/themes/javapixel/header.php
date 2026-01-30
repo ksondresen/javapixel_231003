@@ -23,7 +23,7 @@
             </div>
             <!-- <div class="javapixel-logo-blue-element" style="width:15px; height:15px; background-color:#cdf4ffff; background-color:lavender"></div> -->
         </div></a>
-        <div class="container-header-tabs-right" style="position:relative;margin-right:0px;margin-left:auto;display:flex;flex-direction:horisontal; justify-content:center; align-items: center; gap:10px">            
+        <div class="container-header-tabs-right" >            
             <p>Om Oss</p>
         </div>
     </div>        

@@ -9,7 +9,8 @@ Author URI: https://javapixel.no
 */
 
 body {
-  font-family: roboto; 
+  font-family: 'roboto'; 
+  font-family: 'Inter', sans-serif;
   margin:0px;
   padding-right:-12px; /* Is set to -12px to adjust for the scrollbar than is recompensated in the .modal-open properties */
 }
@@ -42,6 +43,7 @@ p {
     align-items: center; 
     gap:10px;
     padding-left: 15px;            
+    font-size: 14px;
 }
 
 .green-checkmark-230921 {
@@ -188,6 +190,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
    }
 
    
@@ -200,24 +204,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 75px;
+    width: 70px;
     aspect-ratio: 1 / 1;
-    background-color: #f2a284;
-    border-radius: 50%;    
-    color: black;
+    background-color: #f29c7b;
+    border-radius: 50%;
+    color: #ffffff;
     padding-left: 0px;
-    padding-right: 5px;
+    padding-right: 0px;
    }
 
    .javapixel_logo_part_2 {
     background-color: #dcf7ff;
-    color: #0a3a3c;
+    color: #114c4c;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 12px;
+    padding-left: 9px;
+    padding-right: 10px;
     z-index: 1;
-    margin-left: -17px;
+    margin-left: -11px;
+    border-radius: 2px;
+   }
+
+   .container-header-tabs-right {
+    position: relative;
+    margin-right: 0px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: horisontal;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Inter', sans-serif;
    }
 
    .span_text_gode_tekniske_losninger {
@@ -225,3 +242,20 @@ p {
     background-color: #dcf7ff;
     border-radius: 3px;
    }
+
+   .container-marketing-text-and-button {
+      z-index: 1;
+      display:flex; 
+      flex-direction: column;
+      gap:10px; 
+      width: 320px;
+      font-size: 15px;
+    }
+
+    .section-with-contact-form {
+      font-size: 14px;
+      display:flex;
+      justify-content:center; 
+      align-items:center; 
+      margin-top: 170px
+    }

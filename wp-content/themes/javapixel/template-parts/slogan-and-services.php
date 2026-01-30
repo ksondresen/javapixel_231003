@@ -47,7 +47,7 @@
             filter: brightness(1.0) contrast(1.0) opacity(0.8) "           
           >
       </div>
-      <div class="container-marketing-text-and-button" style="z-index: 1;display:flex; flex-direction: column;gap:10px; width: 320px">
+      <div class="container-marketing-text-and-button">
         <p>Javapixel er et lokalt IT-byrå som leverer <span style="font-weight:bold; line-height: 1.4em">moderne tjenester tilpasset deg</span>.</p>        
         <!--<p>Javapixel er et lokalt it-byrå som utvikler nettsider <span style="font-weight:bold">basert på hva som er best for deg</span>.</p>-->
         <div class="container-green-ch-and-txt"  >

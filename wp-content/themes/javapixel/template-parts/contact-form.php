@@ -1,4 +1,4 @@
-<section class="section-with-contact-form" style="display:flex;justify-content:center; align-items:center; margin-top: 170px">
+<section class="section-with-contact-form">
         <div class="laptop-image" style="width: 350px; border-radius:5px; overflow: hidden">
             <img src="wp-content\themes\javapixel\assets\images\230919_laptop_and_plant_photo.png" style="width:100%">
         </div>        
@@ -6,17 +6,38 @@
             <fieldset style="all: unset; display:flex; flex-direction: column;gap:10px; ">
             <legend style="margin-bottom:13px">Ønsker du et gratis og uforpliktende møte med oss?</legend>
             
-            <label style="margin-left:5px">
+            <label 
+                style="
+                    margin-left:5px;
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    "
+                >
                 <input type="radio" name="radio_option" id="option1" value="Option 1" onclick="toggleTextField()" checked >
                 Jeg har en nettside som trenger å bli bedre
             </label>
             
-            <label style="margin-left:5px">
+            <label 
+                style="
+                    margin-left:5px;
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    "
+                >
                 <input type="radio" name="radio_option" id="option2" value="Option 2" onclick="toggleTextField()">
                 Jeg ønsker å lage en helt ny nettside
             </label>
             
-            <label style="margin-left:5px">
+            <label 
+                style="
+                    margin-left:5px;
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    "
+                >
                 <input type="radio" name="radio_option" id="optionOther" value="Other" onclick="toggleTextField()">
                 Annet
             </label>
