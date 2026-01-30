@@ -17,11 +17,13 @@
   <header>
     <div class="header-bar" style="position:relative; display: flex; flex-direction: horisontal; padding: 30px 30px">        
         <a href="" style="color:unset;text-decoration:unset"><div class="javapixel-logo-flex-box" style="position:relative;display:flex;flex-direction:horisontal; justify-content:center; align-items: center; gap:3px">
-            <p class="javapixel-logo-txt">javapixel</p>
-            <div class="javapixel-logo-blue-element" style="width:15px; height:15px; background-color:#cdf4ffff; background-color:lavender"></div>
+            <div class="javapixel-logo-txt">
+              <span class="javapixel_logo_part_1">java</span>
+              <span class="javapixel_logo_part_2">pixel</span>
+            </div>
+            <!-- <div class="javapixel-logo-blue-element" style="width:15px; height:15px; background-color:#cdf4ffff; background-color:lavender"></div> -->
         </div></a>
-        <div class="container-header-tabs-right" style="position:relative;margin-right:0px;margin-left:auto;display:flex;flex-direction:horisontal; justify-content:center; align-items: center; gap:10px">
-            <p>Priser</p>
+        <div class="container-header-tabs-right" style="position:relative;margin-right:0px;margin-left:auto;display:flex;flex-direction:horisontal; justify-content:center; align-items: center; gap:10px">            
             <p>Om Oss</p>
         </div>
     </div>        

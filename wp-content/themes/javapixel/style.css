@@ -68,7 +68,7 @@ p {
     position: relative;
     background-color: #fefefe;
     margin: 90px auto 100px auto;
-    padding: 40px 50px 70px 50px;
+    padding: 40px 50px 100px 50px;
     border-radius: 15px;
     width: 80%;
     overflow: hidden;
@@ -182,4 +182,32 @@ p {
     filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
     object-fit: cover;
     height: 100%;
+   }
+
+   .javapixel-logo-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   
+   .javapixel_logo_part_1, 
+   .javapixel_logo_part_2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+   }
+
+   .javapixel_logo_part_1 {
+    color: black;
+    padding-left: 0px;
+    padding-right: 5px;
+   }
+
+   .javapixel_logo_part_2 {
+    background-color: black;
+    color: white;    
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 3px;
    }
