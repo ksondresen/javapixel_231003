@@ -120,3 +120,66 @@ p {
     background-color: #cdf4ffff;     
     outline: solid 2px #5fdcff;
    }
+
+   .wrapper_logo_from_customer {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 90px;
+   }
+
+   #civita_logo {
+    margin: auto auto;
+    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+    object-fit: cover;
+    height: 100%;
+   }
+   
+   #amnesty_logo {
+    margin: auto auto;
+    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+    object-fit: cover;
+    height: 100%;
+   }
+
+   #klimastiftelsen_logo {
+    margin: auto auto;
+    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+    object-fit: cover;
+    height: 100%;
+   }
+
+   #kulturhuset_logo {
+    margin: auto auto;
+    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+    object-fit: cover;
+    height: 100%;
+   }
+
+   #nho_logo {
+    margin: auto auto;
+    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+    object-fit: cover;
+    height: 100%;
+   }
+
+   #prio_logo {
+    margin: auto auto;
+    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+    object-fit: cover;
+    height: 100%;
+   }
+
+   #prio_logo {
+    margin: auto auto;
+    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+    object-fit: cover;
+    height: 100%;
+   }
+
+   #uit_logo {
+    margin: auto auto;
+    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+    object-fit: cover;
+    height: 100%;
+   }
