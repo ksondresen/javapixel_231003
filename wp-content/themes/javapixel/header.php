@@ -18,7 +18,12 @@
     <div class="header-bar" style="position:relative; display: flex; flex-direction: horisontal; padding: 30px 50px">        
         <a href="" style="color:unset;text-decoration:unset"><div class="javapixel-logo-flex-box" style="position:relative;display:flex;flex-direction:horisontal; justify-content:center; align-items: center; gap:3px">
             <div class="javapixel-logo-txt">
-              <span class="javapixel_logo_part_1">java</span>
+              <span class="javapixel_logo_part_1">
+                <span class="javapixel_logo_part_1_layer1"></span>
+                <span class="javapixel_logo_part_1_layer2"></span>  
+                <span class="javapixel_logo_part_1_layer3"></span>
+                <span class="javapixel_logo_part_1_layer4">java</span>
+              </span>
               <span class="javapixel_logo_part_2">pixel</span>
             </div>
             <!-- <div class="javapixel-logo-blue-element" style="width:15px; height:15px; background-color:#cdf4ffff; background-color:lavender"></div> -->

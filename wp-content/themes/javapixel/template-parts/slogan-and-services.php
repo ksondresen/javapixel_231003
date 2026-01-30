@@ -5,7 +5,7 @@
       <!-- <p>Lei av kortsiktige it-tjenester <span style="font-weight:bold">basert på profittjakt?</span></p>-->
     </section>
 
-    <section class="section-grey-container" style="position: relative; height: 300px;background-color:#fffaf5ff; display: flex; justify-content:center; align-items:center; gap: 30px">
+    <section class="section-grey-container" >
       <div style="
           content: '';
           height: 100%;
@@ -48,7 +48,7 @@
           >
       </div>
       <div class="container-marketing-text-and-button">
-        <p>Javapixel er et lokalt IT-byrå som leverer <span style="font-weight:bold; line-height: 1.4em">moderne tjenester tilpasset deg</span>.</p>        
+        <p>Javapixel er et lokalt IT-byrå som leverer <span class="slogan_modern_services_for_you">moderne tjenester tilpasset deg</span></p>        
         <!--<p>Javapixel er et lokalt it-byrå som utvikler nettsider <span style="font-weight:bold">basert på hva som er best for deg</span>.</p>-->
         <div class="container-green-ch-and-txt"  >
             <img class="green-checkmark-230921" src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_green_check.png"></img>
