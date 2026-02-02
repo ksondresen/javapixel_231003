@@ -74,7 +74,7 @@
                         filter: grayscale(0.1) brightness(1.15) opacity(0.85) contrast(1.2);
                         "
                 >                                
-                <h3>Skal du arrangere et event - og ønsker profesjonell videostreaming som fungerer?</h3>
+                <h3>Ønsker du videostreaming av ditt event - der teknikken fungerer?</h3>
                 <p>
                     Med over 15 års erfaring fra live videostreaming har vi svært god kunnskap 
                     om hvordan vi kan sørge for at ditt arrangement strømmes ut til alle kanalene du måtte ønske på en profesjonell måte. 
@@ -98,14 +98,18 @@
             <div class="tab-content" id="tab2">
                 <!-- WordPress Post 2 Content Here -->
                 <img class="image_web_site_development" src="wp-content\themes\javapixel\assets\images\web_site_development.png"                     >                                
-                <h3>Ønsker du å presentere ditt innhold på en klar og engajerende måte?</h3>                
+                <h3>Presenter ditt budskap - med moderne løsninger som engasjerer</h3>                
                 <p>
-                    Når vi bygger nettsider er vi opptatt av å bygge kode som minimerer teknisk gjeld. Våre løsninger skal kreve minimalt vedlikehold og fungerer år etter år. 
+                    Når vi møter kunder hører vi ofte at "nettsiden må oppdateres" eller "at flere av funksjonene som fungerte når nettsiden ble lansert har slutte å fungere". 
+
+                    Når vi bygger nettsider er vi opptatt av å bygge kode som minimerer teknisk gjeld. Gode løsninger skal krever lite vedlikehold og fungerer år etter år. 
                 </p>
                     <ul>
+                        <li>Evige "bugs". Vi har selv jobbet med utviklere over hele verden, og har dessverre selv fått oppleve hvordan en evig strøm av "bugs" ofte er en del av forretnings stragien til noen aktører.</li>    
+                        <li>Vinn vinn. Når vår kunder har en nettside som fungerer og skaper verdier</li>    
                         <li>Vi bygger på åpne plattformer uten dyre abonnementsløsninger. </li>
                         <li>Vi bygger på holdbare løsninger, og fungerer år etter år. </li>
-                        
+
                     </ul>
                 </p>                    
                 <p>
