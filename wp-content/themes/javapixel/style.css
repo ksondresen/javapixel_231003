@@ -68,14 +68,17 @@ section.section-grey-container::before {
     left: -20px;
 }
 
-.slogan_modern_services_for_you {      
-    line-height: 2.8em;
-    font-size: 17px;
-    font-weight: 500;
-    background-color: #e58f6e;
-    color: white;
-    padding: 7px 10px;
-    border-radius: 2px;
+.slogan_modern_services_for_you {          
+    font-size: 16px;
+    font-weight: 600;
+    /* background-color: #e58f6e; */
+    /* background: linear-gradient(0deg, #795328, #8a4848); */
+    color: #000000;
+    /* padding: 7px 10px; */
+    border-radius: 4px;
+    width: fit-content;
+    margin-top: -7px;
+    /* background-color: #c6f2ff;*/
 }
 
 .green-checkmark-230921 {
@@ -136,8 +139,7 @@ section.section-grey-container::before {
   #myBtn {
     all: unset;
     align-self: flex-start;
-    margin-top: 10px;
-    background-color: #6f9bfb;
+    margin-top: 10px;    
     background-color: #cdf4ff;
     color: white;
     color: #152f08;
@@ -146,12 +148,11 @@ section.section-grey-container::before {
     text-align: center;
     cursor: pointer;
     font-size: 17px;
+    outline: solid 2px #afedff;
   }
 
-   #myBtn:hover {
-    background-color: #4179f2; 
-    background-color: #a4ebff;     
-    background-color: #cdf4ffff;     
+   #myBtn:hover {    
+    background-color: #b5efff;     
     outline: solid 2px #5fdcff;
    }
 
@@ -220,7 +221,7 @@ section.section-grey-container::before {
 
    .javapixel-logo-txt {
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -238,54 +239,55 @@ section.section-grey-container::before {
     justify-content: center;
     width: 70px;
     aspect-ratio: 1 / 1;
-    background-color: #f29c7b;
     border-radius: 50%;
-    color: #ffffff;
+    color: #000000;
     padding-left: 0px;
     padding-right: 0px;
     position: relative;
     overflow: hidden;
+    background-color: #aeffae;
+    background: linear-gradient(164deg, #dcf438, #32f27b);
    }
 
    .javapixel_logo_part_1_layer1 {    
-    width: 100%;
+    /* width: 100%; */
     position: absolute;
     height: 50%;
-    background-color: #ffc4ad;
+    background-color: #8aff8a;
     z-index: 0;
-    top: -12px;
-    rotate: 160deg;
-    left: -10px;
+    top: 54px;
+    rotate: 167deg;
+    left: 6px;
   }
   
   .javapixel_logo_part_1_layer2 {    
-    width: 100%;
+    /* width: 100%; */
     position: absolute;
     height: 50%;
-    background-color: #ffc4ad;
+    background-color: #ffe500;
     z-index: 0;
-    top: -12px;
-    rotate: 160deg;
-    left: -10px;
+    top: 21px;
+    rotate: 170deg;
+    left: 0px;
   }
 
   .javapixel_logo_part_1_layer3 {    
-    width: 100%;
+    /* width: 100%; */
     position: absolute;
     height: 50%;
-    background-color: #e59373;
+    background-color: #ffe500;
     z-index: 0;
     top: 50px;
-    rotate: 160deg;
+    rotate: 170deg;
     left: 10px;
   }
 
   .javapixel_logo_part_1_layer4 {    
     width: 100%;
     position: absolute;
-    height: 100%;    
+    height: 100%;
     z-index: 0;
-    top: 0px;    
+    top: 0px;
     left: 0px;
     display: flex;
     align-items: center;
@@ -293,15 +295,16 @@ section.section-grey-container::before {
   }
 
   .javapixel_logo_part_2 {
-    background-color: #dcf7ff;
-    color: #114c4c;
-    padding-top: 5px;
+    background-color: #494949;
+    color: #ffffff;
+    padding-top: 4px;
     padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 10px;
+    padding-left: 6px;
+    padding-right: 8px;
     z-index: 1;
-    margin-left: -11px;
-    border-radius: 2px;
+    margin-left: -13px;
+    border-radius: 3px;
+    margin-bottom: 13px;
    }
 
    .container-header-tabs-right {
@@ -317,9 +320,12 @@ section.section-grey-container::before {
    }
 
    .span_text_gode_tekniske_losninger {
-    padding: 9px 8px;
-    background-color: #dcf7ff;
-    border-radius: 3px;
+    padding: 0px 0px;
+    font-weight: 600;
+
+    /*background-color: #dcf7ff;
+    background-color: #d0f4ff;
+    border-radius: 3px;*/
    }
 
    .container-marketing-text-and-button {
