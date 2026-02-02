@@ -25,6 +25,7 @@
         color: #060d41;
         background-color: #ea3a23;
         background: linear-gradient(0deg, #de1a00, #ff530c);
+        background: linear-gradient(180deg, #ff7d47, #ff4b34);
         outline: solid 2px #c01e08;
         color: white;
     }
@@ -96,11 +97,29 @@
             
             <div class="tab-content" id="tab2">
                 <!-- WordPress Post 2 Content Here -->
-                <?php
-                    $post1 = get_post(7); // Replace with your post ID
-                    echo '<h3 style="line-height: unset; margin: 10px 0">' . apply_filters('the_title', $post1->post_title) . '</h3>';
-                    echo apply_filters('the_content', $post1->post_content);
-                ?>
+                <img class="image_web_site_development" src="wp-content\themes\javapixel\assets\images\web_site_development.png"                     >                                
+                <h3>Ønsker du å presentere ditt innhold på en klar og engajerende måte?</h3>                
+                <p>
+                    Når vi bygger nettsider er vi opptatt av å bygge kode som minimerer teknisk gjeld. Våre løsninger skal kreve minimalt vedlikehold og fungerer år etter år. 
+                </p>
+                    <ul>
+                        <li>Vi bygger på åpne plattformer uten dyre abonnementsløsninger. </li>
+                        <li>Vi bygger på holdbare løsninger, og fungerer år etter år. </li>
+                        
+                    </ul>
+                </p>                    
+                <p>
+                    Vi kan bygge alt, og det vi er spesialister på er:
+                </p>
+                    <ul>
+                        <li>Gjøre din podcast til et online kurs (teksting, quiz, o.l)</li>
+                        <li>AI integrasjon - når du vil at deler av jobben skal løses av AI</li>
+                        <li>Tekniske løsninger som krever minimalt vedlikehold - fungerer år etter år. </li>
+                    </ul>
+                </p>                
+                <p>
+                    Med javapixel som samarbeidspartner er du sikret en trygg løsning for din videostreaming fra A til Å.
+                </p>
             </div>
 
             <div class="tab-content" id="tab3">
