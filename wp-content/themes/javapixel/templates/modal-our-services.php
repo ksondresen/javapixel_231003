@@ -7,15 +7,15 @@
     }
     
     .tab-link {
-        all: unset; 
+        all: unset;
         display: block;
-        margin:0;
+        margin: 0;
         width: 160px;
-        background-color: #f3f3f3ff;        
-        padding: 10px;
-        color: #a7a7a7; 
-        border-radius: 5px;       
-        font-size: 14px;
+        background-color: #f3f3f3ff;
+        padding: 14px 10px;
+        color: #a7a7a7;
+        border-radius: 6px;
+        font-size: 13px;
         text-align: center;
         cursor: pointer;
     }
@@ -24,6 +24,8 @@
         background-color: #baf0ff;                
         color: #060d41;
         background-color: #ea3a23;
+        background: linear-gradient(0deg, #de1a00, #ff530c);
+        outline: solid 2px #c01e08;
         color: white;
     }
 
@@ -31,6 +33,8 @@
         background-color: #cdf4ffff;                
         color: #060d41;
         background-color: #ff5c47ff;
+        background: linear-gradient(180deg, #ff7d47, #ff4b34);
+        /*background: linear-gradient(0deg, #de1a00, #ff530c);*/
         color: white;    
         font-weight: 400;
     }

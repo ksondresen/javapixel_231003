@@ -36,24 +36,13 @@ p {
     margin: unset;
 }
 
-.container-green-ch-and-txt {    
-    display:flex;
-    flex-direction:row; 
-    justify-content:left; 
-    align-items: center; 
-    gap:10px;
-    padding-left: 15px;            
-    font-size: 14px;
-}
-
 .section-grey-container {
   position: relative; 
-  height: 300px;
+  height: 340px;
   background-color:#fffaf5ff; 
   display: flex; 
   justify-content:center; 
-  align-items:center; 
-  gap: 30px;
+  align-items:center;   
   overflow: hidden;
 }
 
@@ -141,6 +130,7 @@ section.section-grey-container::before {
     align-self: flex-start;
     margin-top: 10px;    
     background-color: #cdf4ff;
+    background: linear-gradient(327deg, #b5efff, #c6f9ff);
     color: white;
     color: #152f08;
     border-radius: 10px;
@@ -328,13 +318,26 @@ section.section-grey-container::before {
     border-radius: 3px;*/
    }
 
+   .container-marketing-text-and-button-outer { 
+      display: flex;
+      padding: 40px 30px;
+      background-color: white;
+      box-shadow: 1px 1px 14px 2px #1111111c;
+      width: fit-content;
+      border-radius: 24px;
+      z-index: 1;
+      gap: 20px;
+      align-items: center;
+      
+   }
+
    .container-marketing-text-and-button {
       z-index: 1;
       display:flex; 
       flex-direction: column;
       gap:10px; 
       width: 320px;
-      font-size: 15px;
+      font-size: 15px;    
     }
 
     .section-with-contact-form {
@@ -344,3 +347,66 @@ section.section-grey-container::before {
       align-items:center; 
       margin-top: 170px
     }
+
+    
+    .container-green-ch-and-txt {    
+        display:flex;
+        flex-direction:row; 
+        justify-content:left; 
+        align-items: center; 
+        gap:10px;
+        padding-left: 15px;            
+        font-size: 14px;
+    }
+
+    .circular-image {        
+        z-index: 2;
+        height: 156px;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        box-shadow: 1px 1px 14px 2px #1111111c;
+        border: solid 2px white;
+    }
+
+    .profile_image {      
+      width:100%;
+      filter: brightness(1.0) contrast(1) opacity(0.95) grayscale(0) saturate(0.9);
+
+    }
+
+    .footer-bar-container {
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+      width: 100%;
+      background-color: #434343ff; 
+      color: white; 
+      background: linear-gradient(170deg, #191919, #000000ed)
+    }
+
+    .footer-contatct-info-container {
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      gap: 10px;       
+      color: white; 
+      padding: 50px 30px; 
+      margin: 30px auto;
+    }
+
+    .footer_top_header {      
+      margin: 100px auto 20px auto;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+    }
+      
+    .footer-icon-element-square-yellow {
+      width: 10px;
+      height: 10px;
+      background-color: #13ff00;
+      outline: solid white 5px;
+      border-radius: 50%;
+    }
+      

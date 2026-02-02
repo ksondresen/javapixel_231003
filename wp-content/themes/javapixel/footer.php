@@ -1,12 +1,10 @@
 
 <footer style="margin-top: 400px;display:flex; justify-content: center">    
 
-    <div class="footer-bar-container" style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;background-color: #434343ff; color: white; ">
-      <h3 style="    
-        margin: 100px auto 80px auto;
-        font-weight: 500;">
+    <div class="footer-bar-container" >
+      <div class="footer_top_header" >
         Over 15 år med forøyde kunder
-      </h3>
+      </div>
       <div style="width: 1100px; margin: 50px auto; display: flex; gap: 20px;align-items: center; justify-content: center; flex-wrap: wrap;">
           <div class="wrapper_logo_from_customer">
             <img 
@@ -45,8 +43,8 @@
           </div>
       </div>
     
-      <div class="footer-contatct-info-container" style="display: flex; justify-content: center; gap: 10px; background-color: #434343ff; color: white; padding: 50px 30px; margin: 30px auto;">
-        <div class="footer-icon-element-square-yellow" style="width:20px; aspect-ratio:1/1; background-color: yellow"></div>
+      <div class="footer-contatct-info-container" >
+        <div class="footer-icon-element-square-yellow" ></div>
         <p>kontakt@javapixel.no</p>
         <p>|</p>
         <p>tlf 98 60 61 58</p>

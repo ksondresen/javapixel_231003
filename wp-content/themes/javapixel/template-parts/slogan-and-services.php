@@ -29,41 +29,29 @@
           display: none;    
       ">
       </div>
-      <div 
-        class="circular-image" 
-        style="
-          z-index: 1;
-          height: 200px;
-          aspect-ratio: 1 / 1;
-          border-radius: 50%;
-          box-shadow: 1px 1px 14px 2px #1111111c;
-          border: solid 2px white;
-          "
-      >
-        <img 
-          src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_portrait_photo.png" 
-          style="
-            width:100%;
-            filter: brightness(1.0) contrast(1.0) opacity(1.0) "           
-          >
-      </div>
-      <div class="container-marketing-text-and-button">
-        <div>Javapixel er et lokalt IT-byrå som leverer </div>
-        <div class="slogan_modern_services_for_you">moderne tjenester tilpasset deg</div>
-        <!--<p>Javapixel er et lokalt it-byrå som utvikler nettsider <span style="font-weight:bold">basert på hva som er best for deg</span>.</p>-->
-        <div class="container-green-ch-and-txt"  >
-            <img class="green-checkmark-230921" src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_green_check.png"></img>
-            <p>Open source - du står alltid fritt</p>
+      <div class="container-marketing-text-and-button-outer">        
+        <div class="circular-image" >
+          <img class="profile_image" src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_portrait_photo_colors.png" >
         </div>
-        <div class="container-green-ch-and-txt"  >
-            <img class="green-checkmark-230921" src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_green_check.png"></img>
-            <p>Effektiv planlegging</p>
+        <div class="container-marketing-text-and-button">        
+            <div>Javapixel er et lokalt IT-byrå som leverer </div>
+            <div class="slogan_modern_services_for_you">moderne tjenester tilpasset deg</div>
+            <!--<p>Javapixel er et lokalt it-byrå som utvikler nettsider <span style="font-weight:bold">basert på hva som er best for deg</span>.</p>-->
+          
+            <div class="container-green-ch-and-txt"  >
+                <img class="green-checkmark-230921" src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_green_check.png"></img>
+                <p>Open source - du står alltid fritt</p>
+            </div>
+            <div class="container-green-ch-and-txt"  >
+                <img class="green-checkmark-230921" src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_green_check.png"></img>
+                <p>Effektiv planlegging</p>
+            </div>
+            <div class="container-green-ch-and-txt"  >
+                <img class="green-checkmark-230921" src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_green_check.png"></img>
+                <p>Fornuftig timepris - høy kvalitet</p>  
+            </div>        
+          <!--<button id="myBtn"><p>Se tjenestene vi tilbyr</p></button>        -->
         </div>
-        <div class="container-green-ch-and-txt"  >
-            <img class="green-checkmark-230921" src="wp-content\themes\javapixel\assets\images\230919_javapixel_boilerplate_webdesign_green_check.png"></img>
-            <p>Fornuftig timepris - høy kvalitet</p>  
-        </div>
-        <!--<button id="myBtn"><p>Se tjenestene vi tilbyr</p></button>        -->
       </div>
 </p>
     </section>
