@@ -55,8 +55,8 @@
     <div class="modal-container" style="margin-top: 45px; display: flex; gap: 30px; align-items: top; min-height: 400px" >
         <nav class="nav-wp-posts-our-services" style="height: 100%; background-color: white">
             <ul style="unset:all; list-style-type: none; display:flex; flex-direction: column; align-items: start; gap: 10px 0; margin: unset; padding: unset;">                
-                <li><a href="#" class="tab-link" data-tab="tab1" data-permalink="?p=6">Videostreaming og <br>podcast produksjon</a></li>
-                <li><a href="#" class="tab-link" data-tab="tab2" data-permalink="?p=7">Nettside og <br>applikasjon utvikling</a></li>
+                <li><a href="#" class="tab-link" data-tab="tab1" data-permalink="?p=6">Videostreaming og <br>podkastproduksjon</a></li>
+                <li><a href="#" class="tab-link" data-tab="tab2" data-permalink="?p=7">Nettside og <br>applikasjonsutvikling</a></li>
                 <li><a href="#" class="tab-link" data-tab="tab3" data-permalink="?p=8">Analyse og brukeradferd <br>- digital måloppnåelse</a></li>
             </ul>
         </nav>
@@ -74,24 +74,23 @@
                         filter: grayscale(0.1) brightness(1.15) opacity(0.85) contrast(1.2);
                         "
                 >                                
-                <h3>Ønsker du videostreaming av ditt event - der teknikken fungerer?</h3>
+                <h3>Ønsker du videostreaming av ditt event – der teknikken fungerer?</h3>
                 <p>
-                    Med over 15 års erfaring fra live videostreaming har vi svært god kunnskap 
-                    om hvordan vi kan sørge for at ditt arrangement strømmes ut til alle kanalene du måtte ønske på en profesjonell måte. 
+                    Med over 15 års erfaring innen live videostreaming har vi svært god kunnskap om hvordan vi kan sørge for at ditt arrangement strømmes til alle kanalene du måtte ønske, på en profesjonell måte.
                 </p>
                 </br>                
                 <p>
                     Vårt oppsett fasiliterer:                
                 </p>
                     <ul>
-                        <li>Fler kamera med profesjonellt lyd oppsett.</li>
-                        <li>Om en gjest deltar på Zoom så integrer vi dette sømløst i sendingen</li>
-                        <li>Strømming til flere plattformer samtidig (Youtube, Fb, etc)</li>
-                        <li>Integrasjon av PP og andre mediefiler</li>
+                        <li>Flerkameraproduksjon med profesjonelt lydoppsett</li>
+                        <li>Dersom en gjest deltar via Zoom, integrerer vi dette sømløst i sendingen</li>
+                        <li>Strømming til flere plattformer samtidig (YouTube, Facebook m.m.)</li>
+                        <li>Integrasjon av PowerPoint og andre mediefiler</li>
                     </ul>
                 </p>
                 <p>
-                    Med javapixel som samarbeidspartner er du sikret en trygg løsning for din videostreaming fra A til Å.
+                    Med Javapixel som samarbeidspartner er du sikret en trygg løsning for videostreaming fra A til Å.
                 </p>
             </div>
             
@@ -100,15 +99,17 @@
                 <img class="image_web_site_development" src="wp-content\themes\javapixel\assets\images\web_site_development.png"                     >                                
                 <h3>Presenter ditt budskap - med moderne løsninger som engasjerer</h3>                
                 <p>
+                    <!--
                     Når vi møter kunder hører vi ofte at "nettsiden må oppdateres" eller "at flere av funksjonene som fungerte når nettsiden ble lansert har slutte å fungere". 
-
-                    Når vi bygger nettsider er vi opptatt av å bygge kode som minimerer teknisk gjeld. Gode løsninger skal krever lite vedlikehold og fungerer år etter år. 
+                    Når vi bygger nettsider er vi opptatt av å bygge kode som minimerer teknisk gjeld. 
+                    -->
+                    Vi har lang erfaring i å sitte på din side av bordet, og hva som gir trygget og verdiskapgning når man driver en nettside. 
+                    Derfor jobber vi alltid for at våre kunder skal få: 
                 </p>
                     <ul>
-                        <li>Evige "bugs". Vi har selv jobbet med utviklere over hele verden, og har dessverre selv fått oppleve hvordan en evig strøm av "bugs" ofte er en del av forretnings stragien til noen aktører.</li>    
-                        <li>Vinn vinn. Når vår kunder har en nettside som fungerer og skaper verdier</li>    
-                        <li>Vi bygger på åpne plattformer uten dyre abonnementsløsninger. </li>
-                        <li>Vi bygger på holdbare løsninger, og fungerer år etter år. </li>
+                        <li>Nettsider og apper som bygger på åpne plattformer, der kundene står fritt til å bytte leverandører, uten dyre abonnementsløsninger. </li>
+                        <li>Tekniske løsninger som fungerer år etter år, uten avbrytelser. Når vår kunder har en nettside som fungerer skapes verdier for alle.</li>                                                
+                        <li>Gode brukeropplevelser og effektiv kvalitetssikring, der det er enkelt å fange opp om dine kunder opplever hindringer i sin opplevelse.</li>
 
                     </ul>
                 </p>                    

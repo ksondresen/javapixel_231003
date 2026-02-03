@@ -11,6 +11,7 @@ Author URI: https://javapixel.no
 body {
   font-family: 'roboto'; 
   font-family: 'Inter', sans-serif;
+  font-size: 14px;
   margin:0px;
   padding-right:-12px; /* Is set to -12px to adjust for the scrollbar than is recompensated in the .modal-open properties */
 }
@@ -23,17 +24,18 @@ body::-webkit-scrollbar {
 
 /* Style the scrollbar when it appears */
 ::-webkit-scrollbar-thumb {
-    background: #e4e4e4;
-    border-radius: 5px;    
+  background: #e4e4e4;
+  border-radius: 5px;    
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #a1a1a1;
+  background: #a1a1a1;
 }
 
 
 p {    
     margin: unset;
+    line-height: 1.25em;
 }
 
 .section-grey-container {
@@ -47,376 +49,387 @@ p {
 }
 
 section.section-grey-container::before {
-    content: "";
-    position: absolute;
-    height: 50%;
-    width: 120%;
-    background-color: #f9f5f1;
-    rotate: -3deg;
-    bottom: -100px;
-    left: -20px;
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 120%;
+  background-color: #f9f5f1;
+  rotate: -3deg;
+  bottom: -100px;
+  left: -20px;
 }
 
 .slogan_modern_services_for_you {          
-    font-size: 16px;
-    font-weight: 600;
-    /* background-color: #e58f6e; */
-    /* background: linear-gradient(0deg, #795328, #8a4848); */
-    color: #000000;
-    /* padding: 7px 10px; */
-    border-radius: 4px;
-    width: fit-content;
-    margin-top: -7px;
-    /* background-color: #c6f2ff;*/
+  font-size: 16px;
+  font-weight: 600;
+  /* background-color: #e58f6e; */
+  /* background: linear-gradient(0deg, #795328, #8a4848); */
+  color: #000000;
+  /* padding: 7px 10px; */
+  border-radius: 4px;
+  width: fit-content;
+  margin-top: -7px;
+  /* background-color: #c6f2ff;*/
 }
 
 .green-checkmark-230921 {
-    width:17px;aspect-ratio:1/1;
-    margin-top:2px"
+  width:17px;aspect-ratio:1/1;
+  margin-top:2px
 }
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */    
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow-y: scroll; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgb(0 0 0 / 13%); /* Black w/ opacity */
-  }
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */    
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow-y: scroll; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgb(0 0 0 / 13%); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 90px auto 100px auto;
+  padding: 40px 50px 100px 50px;
+  border-radius: 15px;
+  width: 80%;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+width: 1000px;
+}
+
+/* Modal The Close Button */
+.close {  
+  color: rgb(33, 33, 33);
+  position: absolute; 
+  top: 10px; 
+  right: 25px;     
+  font-family:'Times New Roman', Times, serif; /*This is the setting that ensures that the X is thin and nice, and not fat*/
+  font-size: 40px;
+  font-weight: 400;    
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;    
+}
+
+.modal-open {
+  overflow: hidden;    
+  padding-right: 12px; /*This setting correts for content that gets moved to the right when scrollbar is hidden in background - when modal opens */
+}
+
+#myBtn {
+  all: unset;
+  align-self: flex-start;
+  margin-top: 10px;    
+  background-color: #cdf4ff;
+  background: linear-gradient(327deg, #b5efff, #c6f9ff);
+  color: white;
+  color: #152f08;
+  border-radius: 10px;
+  padding: 30px 40px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 17px;
+  outline: solid 2px #afedff;
+}
+
+#myBtn:hover {    
+background-color: #b5efff;     
+outline: solid 2px #5fdcff;
+}
+
+.wrapper_logo_from_customer {
+background-color: white;
+border-radius: 10px;
+padding: 20px;
+height: 90px;
+}
+
+#civita_logo {
+margin: auto auto;
+filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+object-fit: cover;
+height: 100%;
+}
+
+#amnesty_logo {
+margin: auto auto;
+filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+object-fit: cover;
+height: 100%;
+}
+
+#klimastiftelsen_logo {
+margin: auto auto;
+filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+object-fit: cover;
+height: 100%;
+}
+
+#kulturhuset_logo {
+margin: auto auto;
+filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+object-fit: cover;
+height: 100%;
+}
+
+#nho_logo {
+margin: auto auto;
+filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+object-fit: cover;
+height: 100%;
+}
+
+#prio_logo {
+margin: auto auto;
+filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+object-fit: cover;
+height: 100%;
+}
+
+#prio_logo {
+margin: auto auto;
+filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+object-fit: cover;
+height: 100%;
+}
+
+#uit_logo {
+margin: auto auto;
+filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
+object-fit: cover;
+height: 100%;
+}
+
+.javapixel-logo-txt {
+display: flex;
+align-items: end;
+justify-content: center;
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+}
+
+
+.javapixel_logo_part_1, 
+.javapixel_logo_part_2 {    
+font-size: 18px;
+}
+
+.javapixel_logo_part_1 {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 70px;
+aspect-ratio: 1 / 1;
+border-radius: 50%;
+color: #000000;
+padding-left: 0px;
+padding-right: 0px;
+position: relative;
+overflow: hidden;
+background-color: #aeffae;
+background: linear-gradient(164deg, #dcf438, #32f27b);
+}
+
+.javapixel_logo_part_1_layer1 {    
+/* width: 100%; */
+position: absolute;
+height: 50%;
+background-color: #8aff8a;
+z-index: 0;
+top: 54px;
+rotate: 167deg;
+left: 6px;
+}
+
+.javapixel_logo_part_1_layer2 {    
+/* width: 100%; */
+position: absolute;
+height: 50%;
+background-color: #ffe500;
+z-index: 0;
+top: 21px;
+rotate: 170deg;
+left: 0px;
+}
+
+.javapixel_logo_part_1_layer3 {    
+/* width: 100%; */
+position: absolute;
+height: 50%;
+background-color: #ffe500;
+z-index: 0;
+top: 50px;
+rotate: 170deg;
+left: 10px;
+}
+
+.javapixel_logo_part_1_layer4 {    
+width: 100%;
+position: absolute;
+height: 100%;
+z-index: 0;
+top: 0px;
+left: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.javapixel_logo_part_2 {
+background-color: #494949;
+color: #ffffff;
+padding-top: 4px;
+padding-bottom: 5px;
+padding-left: 6px;
+padding-right: 8px;
+z-index: 1;
+margin-left: -13px;
+border-radius: 3px;
+margin-bottom: 13px;
+}
+
+.container-header-tabs-right {
+position: relative;
+margin-right: 0px;
+margin-left: auto;
+display: flex;
+flex-direction: horisontal;
+justify-content: center;
+align-items: center;
+gap: 10px;
+font-family: 'Inter', sans-serif;
+}
+
+.span_text_gode_tekniske_losninger {
+padding: 0px 0px;
+font-weight: 600;
+
+/*background-color: #dcf7ff;
+background-color: #d0f4ff;
+border-radius: 3px;*/
+}
+
+.container-marketing-text-and-button-outer { 
+  display: flex;
+  padding: 40px 30px;
+  background-color: white;
+  box-shadow: 1px 1px 14px 2px #1111111c;
+  width: fit-content;
+  border-radius: 24px;
+  z-index: 1;
+  gap: 20px;
+  align-items: center;
   
-  /* Modal Content */
-  .modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: 90px auto 100px auto;
-    padding: 40px 50px 100px 50px;
-    border-radius: 15px;
-    width: 80%;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
-    width: 1000px;
-  }
-  
-  /* Modal The Close Button */
-  .close {  
-    color: rgb(33, 33, 33);
-    position: absolute; 
-    top: 10px; 
-    right: 25px;     
-    font-family:'Times New Roman', Times, serif; /*This is the setting that ensures that the X is thin and nice, and not fat*/
-    font-size: 40px;
-    font-weight: 400;    
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;    
-  }
+}
 
-  .modal-open {
-    overflow: hidden;    
-    padding-right: 12px; /*This setting correts for content that gets moved to the right when scrollbar is hidden in background - when modal opens */
-  }
-  
-  #myBtn {
-    all: unset;
-    align-self: flex-start;
-    margin-top: 10px;    
-    background-color: #cdf4ff;
-    background: linear-gradient(327deg, #b5efff, #c6f9ff);
-    color: white;
-    color: #152f08;
-    border-radius: 10px;
-    padding: 30px 40px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 17px;
-    outline: solid 2px #afedff;
-  }
+.container-marketing-text-and-button {
+  z-index: 1;
+  display:flex; 
+  flex-direction: column;
+  gap:10px; 
+  width: 320px;
+  font-size: 15px;    
+}
 
-   #myBtn:hover {    
-    background-color: #b5efff;     
-    outline: solid 2px #5fdcff;
-   }
+.section-with-contact-form {
+  font-size: 14px;
+  display:flex;
+  justify-content:center; 
+  align-items:center; 
+  margin-top: 170px
+}
 
-   .wrapper_logo_from_customer {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    height: 90px;
-   }
 
-   #civita_logo {
-    margin: auto auto;
-    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
-    object-fit: cover;
-    height: 100%;
-   }
-   
-   #amnesty_logo {
-    margin: auto auto;
-    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
-    object-fit: cover;
-    height: 100%;
-   }
+.container-green-ch-and-txt {    
+    display:flex;
+    flex-direction:row; 
+    justify-content:left; 
+    align-items: center; 
+    gap:10px;
+    padding-left: 15px;            
+    font-size: 14px;
+}
 
-   #klimastiftelsen_logo {
-    margin: auto auto;
-    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
-    object-fit: cover;
-    height: 100%;
-   }
-
-   #kulturhuset_logo {
-    margin: auto auto;
-    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
-    object-fit: cover;
-    height: 100%;
-   }
-
-   #nho_logo {
-    margin: auto auto;
-    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
-    object-fit: cover;
-    height: 100%;
-   }
-
-   #prio_logo {
-    margin: auto auto;
-    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
-    object-fit: cover;
-    height: 100%;
-   }
-
-   #prio_logo {
-    margin: auto auto;
-    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
-    object-fit: cover;
-    height: 100%;
-   }
-
-   #uit_logo {
-    margin: auto auto;
-    filter: brightness(1.0) contrast(1.0) opacity(0.8) grayscale(1);
-    object-fit: cover;
-    height: 100%;
-   }
-
-   .javapixel-logo-txt {
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-   }
-
-   
-   .javapixel_logo_part_1, 
-   .javapixel_logo_part_2 {    
-    font-size: 18px;
-   }
-
-   .javapixel_logo_part_1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
+.circular-image {        
+    z-index: 2;
+    height: 156px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    color: #000000;
-    padding-left: 0px;
-    padding-right: 0px;
-    position: relative;
-    overflow: hidden;
-    background-color: #aeffae;
-    background: linear-gradient(164deg, #dcf438, #32f27b);
-   }
+    box-shadow: 1px 1px 14px 2px #1111111c;
+    border: solid 2px white;
+}
 
-   .javapixel_logo_part_1_layer1 {    
-    /* width: 100%; */
-    position: absolute;
-    height: 50%;
-    background-color: #8aff8a;
-    z-index: 0;
-    top: 54px;
-    rotate: 167deg;
-    left: 6px;
-  }
+.profile_image {      
+  width:100%;
+  filter: brightness(1.0) contrast(1) opacity(0.95) grayscale(0) saturate(0.9);
+
+}
+
+.footer-bar-container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  width: 100%;
+  background-color: #434343ff; 
+  color: white; 
+  background: linear-gradient(170deg, #191919, #000000ed)
+}
+
+.footer-contatct-info-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  gap: 10px;       
+  color: white; 
+  padding: 50px 30px; 
+  margin: 30px auto;
+}
+
+.footer_top_header {      
+  margin: 100px auto 20px auto;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
   
-  .javapixel_logo_part_1_layer2 {    
-    /* width: 100%; */
-    position: absolute;
-    height: 50%;
-    background-color: #ffe500;
-    z-index: 0;
-    top: 21px;
-    rotate: 170deg;
-    left: 0px;
-  }
+.footer-icon-element-square-yellow {
+  width: 10px;
+  height: 10px;
+  background-color: #13ff00;
+  outline: solid white 5px;
+  border-radius: 50%;
+}
 
-  .javapixel_logo_part_1_layer3 {    
-    /* width: 100%; */
-    position: absolute;
-    height: 50%;
-    background-color: #ffe500;
-    z-index: 0;
-    top: 50px;
-    rotate: 170deg;
-    left: 10px;
-  }
+.image_web_site_development {      
+  width: 700px;
+  aspect-ratio: 24 / 9;
+  object-fit: cover;
+  object-position: 50% 27%;      
+  border-radius: 9px;
+  background-color: white;     
+  padding: 0px 40px 20px 10px;
+  box-sizing: border-box;
+}
 
-  .javapixel_logo_part_1_layer4 {    
-    width: 100%;
-    position: absolute;
-    height: 100%;
-    z-index: 0;
-    top: 0px;
-    left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .javapixel_logo_part_2 {
-    background-color: #494949;
-    color: #ffffff;
-    padding-top: 4px;
-    padding-bottom: 5px;
-    padding-left: 6px;
-    padding-right: 8px;
-    z-index: 1;
-    margin-left: -13px;
-    border-radius: 3px;
-    margin-bottom: 13px;
-   }
-
-   .container-header-tabs-right {
-    position: relative;
-    margin-right: 0px;
-    margin-left: auto;
-    display: flex;
-    flex-direction: horisontal;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-family: 'Inter', sans-serif;
-   }
-
-   .span_text_gode_tekniske_losninger {
-    padding: 0px 0px;
-    font-weight: 600;
-
-    /*background-color: #dcf7ff;
-    background-color: #d0f4ff;
-    border-radius: 3px;*/
-   }
-
-   .container-marketing-text-and-button-outer { 
-      display: flex;
-      padding: 40px 30px;
-      background-color: white;
-      box-shadow: 1px 1px 14px 2px #1111111c;
-      width: fit-content;
-      border-radius: 24px;
-      z-index: 1;
-      gap: 20px;
-      align-items: center;
-      
-   }
-
-   .container-marketing-text-and-button {
-      z-index: 1;
-      display:flex; 
-      flex-direction: column;
-      gap:10px; 
-      width: 320px;
-      font-size: 15px;    
-    }
-
-    .section-with-contact-form {
-      font-size: 14px;
-      display:flex;
-      justify-content:center; 
-      align-items:center; 
-      margin-top: 170px
-    }
-
-    
-    .container-green-ch-and-txt {    
-        display:flex;
-        flex-direction:row; 
-        justify-content:left; 
-        align-items: center; 
-        gap:10px;
-        padding-left: 15px;            
-        font-size: 14px;
-    }
-
-    .circular-image {        
-        z-index: 2;
-        height: 156px;
-        aspect-ratio: 1 / 1;
-        border-radius: 50%;
-        box-shadow: 1px 1px 14px 2px #1111111c;
-        border: solid 2px white;
-    }
-
-    .profile_image {      
-      width:100%;
-      filter: brightness(1.0) contrast(1) opacity(0.95) grayscale(0) saturate(0.9);
-
-    }
-
-    .footer-bar-container {
-      display: flex; 
-      flex-direction: column; 
-      align-items: center; 
-      justify-content: center; 
-      width: 100%;
-      background-color: #434343ff; 
-      color: white; 
-      background: linear-gradient(170deg, #191919, #000000ed)
-    }
-
-    .footer-contatct-info-container {
-      display: flex; 
-      justify-content: center; 
-      align-items: center;
-      gap: 10px;       
-      color: white; 
-      padding: 50px 30px; 
-      margin: 30px auto;
-    }
-
-    .footer_top_header {      
-      margin: 100px auto 20px auto;
-      font-weight: 500;
-      font-size: 20px;
-      text-align: center;
-    }
-      
-    .footer-icon-element-square-yellow {
-      width: 10px;
-      height: 10px;
-      background-color: #13ff00;
-      outline: solid white 5px;
-      border-radius: 50%;
-    }
-    
-    .image_web_site_development {      
-      width: 700px;
-      aspect-ratio: 24 / 9;
-      object-fit: cover;
-      object-position: 50% 27%;      
-      border-radius: 9px;
-      background-color: white;     
-      padding: 0px 40px 20px 10px;
-      box-sizing: border-box;
-    }
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
