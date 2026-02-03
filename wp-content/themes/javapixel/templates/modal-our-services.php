@@ -63,85 +63,82 @@
             
             <div class="tab-content" id="tab1">
                 <!-- WordPress Post 1 Content Here -->
-                <img 
-                    src="wp-content\themes\javapixel\assets\images\260129_video_streaming_og_podcast.png" 
-                    style="    
-                        width: 700px;
-                        aspect-ratio: 24 / 9;
-                        object-fit: cover;
-                        object-position: 50% 27%;
-                        border-radius: 6px;
-                        filter: grayscale(0.1) brightness(1.15) opacity(0.85) contrast(1.2);
-                        "
-                >                                
-                <h3>Ønsker du videostreaming av ditt event – der teknikken fungerer?</h3>
-                <p>
-                    Med over 15 års erfaring innen live videostreaming har vi svært god kunnskap om hvordan vi kan sørge for at ditt arrangement strømmes til alle kanalene du måtte ønske, på en profesjonell måte.
-                </p>
-                </br>                
-                <p>
-                    Vårt oppsett fasiliterer:                
-                </p>
-                    <ul>
-                        <li>Flerkameraproduksjon med profesjonelt lydoppsett</li>
-                        <li>Dersom en gjest deltar via Zoom, integrerer vi dette sømløst i sendingen</li>
-                        <li>Strømming til flere plattformer samtidig (YouTube, Facebook m.m.)</li>
-                        <li>Integrasjon av PowerPoint og andre mediefiler</li>
-                    </ul>
-                </p>
-                <p>
-                    Med Javapixel som samarbeidspartner er du sikret en trygg løsning for videostreaming fra A til Å.
-                </p>
+                <img class="image_video_streaming" src="wp-content\themes\javapixel\assets\images\260129_video_streaming_og_podcast.png" >                                
+                <div class="wrapper_for_modal_text">
+                    <h3>Ønsker du videostreaming av ditt event – der teknikken fungerer?</h3>
+                    <p>
+                        Med over 15 års erfaring innen live videostreaming har vi svært god kunnskap om hvordan vi kan sørge for at ditt arrangement strømmes til alle kanalene du måtte ønske, på en profesjonell måte.
+                    </p>
+                    </br>                
+                    <p>
+                        Vårt oppsett fasiliterer:                
+                    </p>
+                        <ul>
+                            <li>Flerkameraproduksjon med profesjonelt lydoppsett</li>
+                            <li>Dersom en gjest deltar via Zoom, integrerer vi dette sømløst i sendingen</li>
+                            <li>Strømming til flere plattformer samtidig (YouTube, Facebook m.m.)</li>
+                            <li>Integrasjon av PowerPoint og andre mediefiler</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Med Javapixel som samarbeidspartner er du sikret en trygg løsning for videostreaming fra A til Å.
+                    </p>
+                </div>
             </div>
             
             <div class="tab-content" id="tab2">
                 <!-- WordPress Post 2 Content Here -->
-                <img class="image_web_site_development" src="wp-content\themes\javapixel\assets\images\web_site_development.png"                     >                                
-                <h3>Presenter ditt budskap – på en moderne nettside som engasjerer</h3>                
-                <p>
-                    <!--
-                    Når vi møter kunder hører vi ofte at "nettsiden må oppdateres" eller "at flere av funksjonene som fungerte når nettsiden ble lansert har slutte å fungere". 
-                    Når vi bygger nettsider er vi opptatt av å bygge kode som minimerer teknisk gjeld. 
-                    -->
-                    Vi har lang erfaring med å sitte på din side av bordet, og vet hva som gir trygghet og verdiskaping når man driver en nettside. Derfor jobber vi alltid for at våre kunder skal få:
-                </p>
-                    <ul>                        
-                        <li>Gode brukeropplevelser og effektiv kvalitetssikring, der det er enkelt å fange opp om kundene opplever hindringer i brukerreisen.</li>
-                        <li>Fleksibilitet og tilrettelegging for kontinuerlig utvikling. Ønsker du å endre eller legge til nye elementer på nettsiden, gjør vi dette enkelt og kostnadseffektivt.</li>                        
-                        <li>Tekniske løsninger som fungerer år etter år, uten avbrytelser. Når kunden har en nettside som fungerer, skapes verdier for alle.</li>                                     
-                        <li>Nettsider og apper bygget på åpne plattformer, der kundene står fritt til å bytte leverandør uten dyre abonnementsløsninger.</li>           
-                    </ul>
-                </p>                    
-                <p>
-                    Vi kan bygge alt, og det vi er spesialister på er:
-                </p>
-                    <ul>
-                        <li>Å gjøre din podkast om til et nettkurs (teksting, quiz m.m.)</li>
-                        <li>AI-integrasjon – når du ønsker at deler av arbeidet skal løses av AI</li>
-                        <li>Tekniske løsninger som krever minimalt vedlikehold og fungerer år etter år</li>
-                    </ul>
-                </p>                
-                <p>
-                        Ta kontakt for en uforpliktende prat, så kan vi hjelpe deg i gang med å utvikle en nettside eller applikasjon som gir verdiskaping og står seg på lang sikt.
-                </p>
+                <img class="image_web_site_development" src="wp-content\themes\javapixel\assets\images\web_site_development.png" >                                
+                <div class="wrapper_for_modal_text">
+                    <h3>Presenter ditt budskap – på en moderne nettside som engasjerer</h3>                
+                    <p>
+                        <!--
+                        Når vi møter kunder hører vi ofte at "nettsiden må oppdateres" eller "at flere av funksjonene som fungerte når nettsiden ble lansert har slutte å fungere". 
+                        Når vi bygger nettsider er vi opptatt av å bygge kode som minimerer teknisk gjeld. 
+                        -->
+                        Vi har lang erfaring med å sitte på din side av bordet, og vet hva som gir trygghet og verdiskaping når man driver en nettside. Derfor jobber vi alltid for at våre kunder skal få:
+                    </p>
+                        <ul>                        
+                            <li>Gode brukeropplevelser og effektiv kvalitetssikring, der det er enkelt å fange opp om kundene opplever hindringer i brukerreisen.</li>
+                            <li>Fleksibilitet og tilrettelegging for kontinuerlig utvikling. Ønsker du å endre eller legge til nye elementer på nettsiden, gjør vi dette enkelt og kostnadseffektivt.</li>                        
+                            <li>Tekniske løsninger som fungerer år etter år, uten avbrytelser. Når kunden har en nettside som fungerer, skapes verdier for alle.</li>                                     
+                            <li>Nettsider og apper bygget på åpne plattformer, der kundene står fritt til å bytte leverandør uten dyre abonnementsløsninger.</li>           
+                        </ul>
+                    </p>                    
+                    <p>
+                        Vi kan bygge alt, og det vi er spesialister på er:
+                    </p>
+                        <ul>
+                            <li>Å gjøre din podkast om til et nettkurs (teksting, quiz m.m.)</li>
+                            <li>AI-integrasjon – når du ønsker at deler av arbeidet skal løses av AI</li>
+                            <li>Tekniske løsninger som krever minimalt vedlikehold og fungerer år etter år</li>
+                        </ul>
+                    </p>                
+                    <p>
+                            Ta kontakt for en uforpliktende prat, så kan vi hjelpe deg i gang med å utvikle en nettside eller applikasjon som gir verdiskaping og står seg på lang sikt.
+                    </p>
+                </div>
             </div>
 
             <div class="tab-content" id="tab3">
                 <!-- WordPress Post 3 Content Here -->
-                <img class="image_web_site_analytics" src="wp-content\themes\javapixel\assets\images\web_site_analytics.png"                     >                                
-                <p>
-                    Gode avgjørelser tas på erfaringsgrunnlag. Når du kjenner ditt publikum og hvordan de navigerer ditt innhold, så kan du ta gode avgjørelser. 
-                </p>
-                    <ul>
-                        <li>Datainnsamling, analyse, og filtrering av støy.</li>
-                        <li>Skjermopptak av brukerreisen</li>
-                        <li>A-B testing</li>
-                        <li>Epost og sms varsling</li>                        
-                    </ul>
-                </p>                
-                <p>
-                        Ta kontakt for en uforpliktende prat, så kan vi hjelpe deg i gang med å utvikle en nettside eller applikasjon som gir verdiskaping og står seg på lang sikt.
-                </p>
+                <img class="image_web_site_analytics" src="wp-content\themes\javapixel\assets\images\web_site_analytics.png">                                
+                <div class="wrapper_for_modal_text">
+                    <h3>Hva gjør egentlig brukerne dine når de besøker nettsiden – og hvem er de?</h3>                
+                    <p>
+                        Gode avgjørelser tas på erfaringsgrunnlag. Når du kjenner publikumet ditt og forstår hvordan de navigerer i innholdet ditt, kan du ta bedre beslutninger.
+                    </p>
+                        <ul>
+                            <li>Datainnsamling, analyse og filtrering av støy</li>
+                            <li>Skjermopptak av brukerreisen</li>
+                            <li>A/B testing</li>
+                            <li>E-post- og SMS-varsling når besøkende på siden din gjør noe du ønsker å få beskjed om</li>                        
+                        </ul>
+                    </p>                
+                    <p>
+                            Klar for å ta bedre beslutninger? Ta kontakt for en uforpliktende prat om hvordan vi kan hjelpe deg videre.
+                    </p>
+                </div>
             </div>
         
 
