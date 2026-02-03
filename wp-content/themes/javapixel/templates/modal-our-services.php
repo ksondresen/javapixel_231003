@@ -97,43 +97,51 @@
             <div class="tab-content" id="tab2">
                 <!-- WordPress Post 2 Content Here -->
                 <img class="image_web_site_development" src="wp-content\themes\javapixel\assets\images\web_site_development.png"                     >                                
-                <h3>Presenter ditt budskap - med moderne løsninger som engasjerer</h3>                
+                <h3>Presenter ditt budskap – på en moderne nettside som engasjerer</h3>                
                 <p>
                     <!--
                     Når vi møter kunder hører vi ofte at "nettsiden må oppdateres" eller "at flere av funksjonene som fungerte når nettsiden ble lansert har slutte å fungere". 
                     Når vi bygger nettsider er vi opptatt av å bygge kode som minimerer teknisk gjeld. 
                     -->
-                    Vi har lang erfaring i å sitte på din side av bordet, og hva som gir trygget og verdiskapgning når man driver en nettside. 
-                    Derfor jobber vi alltid for at våre kunder skal få: 
+                    Vi har lang erfaring med å sitte på din side av bordet, og vet hva som gir trygghet og verdiskaping når man driver en nettside. Derfor jobber vi alltid for at våre kunder skal få:
                 </p>
-                    <ul>
-                        <li>Nettsider og apper som bygger på åpne plattformer, der kundene står fritt til å bytte leverandører, uten dyre abonnementsløsninger. </li>
-                        <li>Tekniske løsninger som fungerer år etter år, uten avbrytelser. Når vår kunder har en nettside som fungerer skapes verdier for alle.</li>                                                
-                        <li>Gode brukeropplevelser og effektiv kvalitetssikring, der det er enkelt å fange opp om dine kunder opplever hindringer i sin opplevelse.</li>
-
+                    <ul>                        
+                        <li>Gode brukeropplevelser og effektiv kvalitetssikring, der det er enkelt å fange opp om kundene opplever hindringer i brukerreisen.</li>
+                        <li>Fleksibilitet og tilrettelegging for kontinuerlig utvikling. Ønsker du å endre eller legge til nye elementer på nettsiden, gjør vi dette enkelt og kostnadseffektivt.</li>                        
+                        <li>Tekniske løsninger som fungerer år etter år, uten avbrytelser. Når kunden har en nettside som fungerer, skapes verdier for alle.</li>                                     
+                        <li>Nettsider og apper bygget på åpne plattformer, der kundene står fritt til å bytte leverandør uten dyre abonnementsløsninger.</li>           
                     </ul>
                 </p>                    
                 <p>
                     Vi kan bygge alt, og det vi er spesialister på er:
                 </p>
                     <ul>
-                        <li>Gjøre din podcast til et online kurs (teksting, quiz, o.l)</li>
-                        <li>AI integrasjon - når du vil at deler av jobben skal løses av AI</li>
-                        <li>Tekniske løsninger som krever minimalt vedlikehold - fungerer år etter år. </li>
+                        <li>Å gjøre din podkast om til et nettkurs (teksting, quiz m.m.)</li>
+                        <li>AI-integrasjon – når du ønsker at deler av arbeidet skal løses av AI</li>
+                        <li>Tekniske løsninger som krever minimalt vedlikehold og fungerer år etter år</li>
                     </ul>
                 </p>                
                 <p>
-                    Med javapixel som samarbeidspartner er du sikret en trygg løsning for din videostreaming fra A til Å.
+                        Ta kontakt for en uforpliktende prat, så kan vi hjelpe deg i gang med å utvikle en nettside eller applikasjon som gir verdiskaping og står seg på lang sikt.
                 </p>
             </div>
 
             <div class="tab-content" id="tab3">
                 <!-- WordPress Post 3 Content Here -->
-                <?php
-                    $post1 = get_post(8); // Replace with your post ID
-                    echo '<h3 style="line-height: unset; margin: 10px 0">' . apply_filters('the_title', $post1->post_title) . '</h3>';
-                    echo apply_filters('the_content', $post1->post_content);
-                ?>
+                <img class="image_web_site_analytics" src="wp-content\themes\javapixel\assets\images\web_site_analytics.png"                     >                                
+                <p>
+                    Gode avgjørelser tas på erfaringsgrunnlag. Når du kjenner ditt publikum og hvordan de navigerer ditt innhold, så kan du ta gode avgjørelser. 
+                </p>
+                    <ul>
+                        <li>Datainnsamling, analyse, og filtrering av støy.</li>
+                        <li>Skjermopptak av brukerreisen</li>
+                        <li>A-B testing</li>
+                        <li>Epost og sms varsling</li>                        
+                    </ul>
+                </p>                
+                <p>
+                        Ta kontakt for en uforpliktende prat, så kan vi hjelpe deg i gang med å utvikle en nettside eller applikasjon som gir verdiskaping og står seg på lang sikt.
+                </p>
             </div>
         
 
