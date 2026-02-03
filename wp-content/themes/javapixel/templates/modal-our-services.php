@@ -126,7 +126,7 @@
                 <div class="wrapper_for_modal_text">
                     <h3>Hva gjør egentlig brukerne dine når de besøker nettsiden – og hvem er de?</h3>                
                     <p>
-                        Gode avgjørelser tas på erfaringsgrunnlag. Når du kjenner publikumet ditt og forstår hvordan de navigerer i innholdet ditt, kan du ta bedre beslutninger.
+                        Gode avgjørelser tas på erfaringsgrunnlag. Når du kjenner publikumet ditt og forstår hvordan de navigerer i innholdet ditt, kan du ta bedre beslutninger. Vi hjelper deg med å sette opp: 
                     </p>
                         <ul>
                             <li>Datainnsamling, analyse og filtrering av støy</li>
